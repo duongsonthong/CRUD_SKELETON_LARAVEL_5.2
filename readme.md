@@ -23,7 +23,7 @@ DB_PASSWORD=
 ```php artisan migrate```
 - open browser and past this link 
 ```http://localhost/YOUR__SERVER_FOLDER/public/admin/category```
-- if your browser cant load page, please make sure you change mod storage and bootstrap to 777
+- if your browser cant load page, please make sure you changed mod storage and bootstrap to 777
 ```
 chmod -R 777 storage/
 chmod -R 777 bootstrap/
