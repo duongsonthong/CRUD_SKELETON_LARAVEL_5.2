@@ -66,7 +66,7 @@ $category = ['fr_id' =>'category_id',
 $this->foreignData = [$category];
 ```
 #### 2. Progress POST (CREATE and UPDATE data) :
-  - progress all data you need create from your form 
+  - Handle all data you need create from your form 
   ```php
   $active = !empty($request->get('active')) ? 1 : 0 ;
   $progressData = ['active' => $active,'name' => $request->get('name')];
@@ -75,12 +75,12 @@ $this->foreignData = [$category];
   ```php 
   $progressData =  $this->progressFileData($request,$this->fieldFile,$progressData);
   ```          
-  - progress Post data and get validate return to display at view
+  - Process Post data and get validate return to display at view
   
   ```php
   $this->validateMaker = $this->progressPost($request,$progressData)->parseMessageToValidateMaker();
   ```
-#### 3. Progress Get (READ and DELETE data)
+#### 3. Process Get (READ and DELETE data)
  - Just provide request data to progressGet function and get return validate info 
 ```php 
 $this->validateMaker = $this->progressGet($request)->parseMessageToValidateMaker();
