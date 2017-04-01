@@ -46,7 +46,7 @@ Please open ```CategoryController``` to get example :
     private $validateForm = ['name'=>'required|max:255'];
     private $validateFormUpdate = ['name'=>'required|max:255'];
 ```
-if you have file fiel you need provide file field and file path in your table 
+if you have file field you need provide file field and file path in your table 
 For example : 
 ```php
 private $fieldFile = array('image');
