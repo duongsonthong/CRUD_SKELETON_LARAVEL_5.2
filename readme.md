@@ -7,7 +7,7 @@
 [![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
 # Why should you use CRUD_SKELETON
-- It will help you easy to```Create,Read,Update,Delete``` data in any table type, include your table have ```file field```, ```foriegn key```
+- It will help you easy to```Create,Read,Update,Delete``` data in any table type, include your table has ```file field```, ```foriegn key```
 # How to run skeleton?
 
 - clone this source code, in ```.env``` file update your database info.For example
