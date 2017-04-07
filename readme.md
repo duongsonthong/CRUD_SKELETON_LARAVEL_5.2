@@ -86,4 +86,7 @@ $this->foreignData = [$category];
 ```php 
 $this->validateMaker = $this->progressGet($request)->parseMessageToValidateMaker();
 ```
+### finally you will have all CRUD function like this
+![untitled](https://cloud.githubusercontent.com/assets/8258900/24807319/e97844be-1be1-11e7-92c6-803433481dcd.png)
+
 ##### Please do not hesitate to let me know if you have any questions thongds@gmail.com
