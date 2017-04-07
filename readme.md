@@ -33,7 +33,8 @@ your browser should display like this
 ![untitled](https://cloud.githubusercontent.com/assets/26756140/24553748/6f1e3da4-1655-11e7-9ee4-a99e1e465dea.png)
 
 # How does it work?
-
+### Here's our database schema
+![untitled](https://cloud.githubusercontent.com/assets/26756140/24806532/5cedac98-1bdf-11e7-9ff0-154883e4261b.png)
 ### To create CRUD table 
 
 #### 1. you need provide some info : Get and Post router, uniqueField in your table, private key of your table,validate form when create new data and validate form when update data
